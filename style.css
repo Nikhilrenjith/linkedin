@@ -1,0 +1,391 @@
+body {
+  background-color: rgb(243, 242, 239);
+}
+
+#navbar {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  height: 50px;
+  position: fixed;
+  justify-content: space-between;
+  border-bottom: 0.5px solid lightgrey;
+}
+
+#navbar .logo img {
+  margin-left: 150px;
+  height: 35px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_right {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 300px;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 10px;
+  align-items: center;
+  height: 35px;
+  background-color: #eef3f8;
+  border-radius: 5px;
+  width: 270px;
+}
+
+.search input {
+  padding: 10px;
+  outline: none;
+  background: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.right_icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: grey;
+  cursor: pointer;
+}
+
+.right_icons > h4 {
+  font-size: 13px;
+  margin-top: 7px;
+  font-weight: 400;
+}
+
+.main-body {
+  display: flex;
+  padding: 0px 150px;
+}
+
+.sidebar {
+  width: 200px;
+  text-align: center;
+  position: sticky;
+  border-radius: 10px;
+  margin-top: 70px;
+}
+
+#my_img_info {
+  border-radius: 50%;
+}
+
+.sidebar_top .background-img {
+  width: 200px;
+  height: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: -40px;
+}
+
+.sidebar_top img {
+  width: 70px;
+}
+
+.sidebar_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgrey;
+  border-bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.sidebar_top .name {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.sidebar_stat {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid lightgrey;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 100px;
+}
+
+.name {
+  font-size: 17px;
+}
+
+.post {
+  color: grey;
+}
+
+.sidebar_stat {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar_stats p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sidebar_recentitem {
+  display: flex;
+  padding: 10px;
+}
+
+.sidebar_statnumber {
+  color: blue;
+}
+
+.sidebar_bottom {
+  padding: 10px;
+  border: 1px solid lightgrey;
+  text-align: left;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.middle_postsection {
+  background-color: white;
+  display: flex;
+  padding: 10px 15px;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-left: 20px;
+  height: 110px;
+  width: 600px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.post_input {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.post_input input {
+  border: 0.5px solid grey;
+  cursor: pointer;
+  width: 90%;
+  margin-left: 8px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.post_input img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.icons {
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+}
+
+.icons span {
+  color: grey;
+  cursor: pointer;
+}
+
+.post_logos {
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.post_logos img {
+  width: 25px;
+  margin-right: 7px;
+}
+
+.main-posts {
+  border: 1px solid grey;
+  margin-top: 10px;
+  padding: 0px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.post_header {
+  display: flex;
+}
+
+.post_header .flipkart_icon {
+  width: 50px;
+  height: 50px;
+}
+
+.post_header .amazon_icon {
+  height: 30px;
+  width: 30px;
+}
+
+.post_body img {
+  width: 530px;
+  border-radius: 10px;
+}
+
+.post_info span {
+  color: grey;
+  font-size: 15px;
+  padding: 7px;
+}
+
+.post_info p {
+  font-size: 15px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.feedinput_options {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid grey;
+}
+
+.input_op {
+  display: flex;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.input_op img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.top_right_widjets {
+  background-color: white;
+  margin-top: 70px;
+  border: 1px solid gray;
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.linkdin_news h4 {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.top_right_widjets .lists_ares {
+  margin-left: 20px;
+  font-size: 15px;
+  padding: 15px;
+  background-color: white;
+}
+
+.top_right_widjets .lists_ares ul li {
+  margin-top: 15px;
+}
+
+.right_bottom {
+  height: 250px;
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color: white;
+}
+
+.who_hiring_linkdin img {
+  width: 95%;
+  object-fit: cover;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 10px;
+  position: sticky;
+  top: 100px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.right_icons:hover {
+  color: black;
+}
+
+.post_logos:hover {
+  background-color: lightgrey;
+}
+
+.input_op:hover {
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+.post_info p:hover {
+  color: blue;
+}
+
+@media screen and (max-width: 1000px) {
+  .right_widjets {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+  .main-body {
+    padding: 0px;
+  }
+
+  .search {
+    display: none;
+  }
+  .middle_postsection {
+    width: 450px;
+  }
+  .post_body img {
+    width: 400px;
+    margin-left: 0px;
+  }
+  .main-body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .input_op img {
+    width: 15px;
+  }
+  .input_op h4 {
+    font-size: 14px;
+  }
+  .post_input img {
+    width: 40px;
+    height: 40px;
+  }
+  .post_input input {
+    width: 80%;
+    padding: 10px;
+    margin-left: 8px;
+  }
+}
